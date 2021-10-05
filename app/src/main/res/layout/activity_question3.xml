@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/scenery4"
+    tools:context=".Question3Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="@string/question_number3"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/third_question"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button1_3"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button2_3"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button3_3"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>

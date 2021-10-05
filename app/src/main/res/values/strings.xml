@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AppTrivia</string>
+    <string name="title">Welcome, you wanna play?</string>
+    <string name="main_name">Give me your name...</string>
+    <string name="main_Button">GO!</string>
+    <string name="name1">Rigoberto Missael Peralta Arciniega 20166916</string>
+    <string name="name2">Cesar Adrian Vargas Rangel 20167007    5C </string>
+
+
+    <string name="question_number">1/3</string>
+    <string name="first_question">Who designed the Kotlin programming language?</string>
+    <string name="button_1">JetBrains</string>
+    <string name="button_2">Facebook</string>
+    <string name="button_3">Apple</string>
+
+    <string name="question_number2">2/3</string>
+    <string name="second_question">In what year did Google buy Android?</string>
+    <string name="button1_2">2010</string>
+    <string name="button2_2">2005</string>
+    <string name="button3_2">1990</string>
+
+    <string name="question_number3">3/3</string>
+    <string name="third_question">Which of these options is the Android application store?</string>
+    <string name="button1_3">Google Play Store:</string>
+    <string name="button2_3">App Store</string>
+    <string name="button3_3">Microsoft Store</string>
+
+
+</resources>

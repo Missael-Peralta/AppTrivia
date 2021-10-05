@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+   android:background="@drawable/scenery1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name1"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/name2"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+    />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/main_name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+
+        android:textSize="18sp"
+    />
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_Button"
+        android:layout_margin="10dp"
+    />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
